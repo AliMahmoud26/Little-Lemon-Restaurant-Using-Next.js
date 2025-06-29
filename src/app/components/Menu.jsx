@@ -6,7 +6,7 @@ import { menuItems } from '../data/Data';
 
 const Menu = () => {
   return (
-    <section className="py-32 px-4 md:px-8 mt-16 lg:px-40">
+    <section className="py-32 max-md:py-16 px-4 md:px-8 mt-16 max-md:mt-4 lg:px-40">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-16 lg:px-12 md:px-0">

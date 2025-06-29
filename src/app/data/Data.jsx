@@ -1,3 +1,4 @@
+// Nabbar Links Component Data
 export const navLinks = [
   { path: '/', name: 'Home' },
   { path: '/about', name: 'About' },
@@ -6,6 +7,7 @@ export const navLinks = [
   { path: '/orders', name: 'Orders' },
 ];
 
+// Menu Items Component Data
 export const menuItems = [
   {
     id: 1,
@@ -33,6 +35,7 @@ export const menuItems = [
   }
 ];
 
+// Testimonials Component Data
 export const testimonials = [
   {
     id: 1,
@@ -77,3 +80,36 @@ export const testimonials = [
     image: "/testimonial2.avif"
   }
 ];
+
+// Footer Component Data
+export const footerData = {
+  description: {
+    logo: '/Logo.svg',
+    text: 'We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.'
+  },
+  links: [
+    { name: 'Home', path: '/' },
+    { name: 'About', path: '/about' },
+    { name: 'Menu', path: '/menu' },
+    { name: 'Reservation', path: '/reservation' },
+    { name: 'Order Online', path: '/order' },
+    { name: 'Login', path: '/login' }
+  ],
+  contact: {
+    address: '123 Town Street, Chicago',
+    phone: '+00 123 456 789',
+    email: 'little@lemon.com'
+  },
+  socials: [
+    { name: 'Facebook', url: 'https://facebook.com' },
+    { name: 'Instagram', url: 'https://instagram.com' },
+    { name: 'Twitter', url: 'https://twitter.com' }
+  ],
+  copyright: {
+    text: 'Copyright ©',
+    author: 'Ali Mahmoud',
+    authorUrl: 'https://github.com/AliMahmoud26',
+    year: '2024',
+    rights: 'All Rights Reserved'
+  }
+};

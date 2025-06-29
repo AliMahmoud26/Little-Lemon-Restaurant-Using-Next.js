@@ -57,7 +57,7 @@ const Navbar = ({ isAuthenticated, setIsAuthenticated }) => {
                 className="w-full text-center"
                 onClick={toggleNavbar}
               >
-                <li className="text-xl text-[#222] border-b-2 border-[#495E57] transition-all duration-300 ease-in-out cursor-pointer hover:text-white hover:border-[#EDEFEE] py-1">
+                <li className="text-xl text-[#222] transition-all duration-300 ease-in-out cursor-pointer hover:text-white py-1">
                   {link.name}
                 </li>
               </Link>
@@ -68,7 +68,7 @@ const Navbar = ({ isAuthenticated, setIsAuthenticated }) => {
                   handleLogout();
                   toggleNavbar();
                 }}
-                className="text-xl text-[#222] border-b-2 border-[#495E57] transition-all duration-300 ease-in-out cursor-pointer hover:text-white hover:border-[#EDEFEE] py-1 w-full text-center"
+                className="text-xl text-[#222] transition-all duration-300 ease-in-out cursor-pointer hover:text-white py-1 w-full text-center"
               >
                 Logout
               </li>
@@ -78,7 +78,7 @@ const Navbar = ({ isAuthenticated, setIsAuthenticated }) => {
                 className="w-full text-center"
                 onClick={toggleNavbar}
               >
-                <li className="text-xl text-[#222] border-b-2 border-[#495E57] transition-all duration-300 ease-in-out cursor-pointer hover:text-white hover:border-[#EDEFEE] py-1">
+                <li className="text-xl text-[#222] transition-all duration-300 ease-in-out cursor-pointer hover:text-white py-1">
                   Login
                 </li>
               </Link>
