@@ -49,7 +49,7 @@ export const testimonials = [
     name: "Sarah Miller",
     rating: 5,
     review: "Wonderful dining experience. The bruschetta was perfectly crispy and the service was exceptional.",
-    image: "/testimonial2.avif"
+    image: "/testimonial2.avif",
   },
   {
     id: 3,
@@ -113,3 +113,81 @@ export const footerData = {
     rights: 'All Rights Reserved'
   }
 };
+
+// About Page - Our History Component Data
+export const historyData = {
+  story: {
+    title: "Our Story",
+    content: "Welcome to our family-owned Mediterranean restaurant, a place where tradition and innovation come together to create an unforgettable dining experience. Our story began with a simple yet profound dream: to share the rich heritage of Mediterranean cuisine with our community. Inspired by recipes passed down through generations, we've taken the flavors of our roots and infused them with a modern twist to appeal to today's adventurous food lovers. From the very beginning, our focus has been on crafting dishes that reflect the warmth and authenticity of our culture. Every plate tells a story—of fresh, handpicked ingredients, bold flavors, and the timeless art of Mediterranean cooking. While we remain deeply connected to our culinary traditions, we embrace creativity to give each dish a contemporary flair that excites the senses. Our restaurant is more than just a place to eat; it's a gathering space for friends and family to share moments of joy and connection. Whether it's a casual meal, a special celebration, or simply a desire to explore the tastes of the Mediterranean, we are here to welcome you with open arms. Over the years, our journey has been guided by passion, hard work, and the unwavering support of our guests. As we continue to grow, we remain committed to providing exceptional food, heartfelt service, and an atmosphere that feels like home. Thank you for being part of our story—we look forward to sharing many more meals and memories with you."
+  },
+  gallery: [
+    {
+      col: 1,
+      images: [
+        { src: "/restauranfood.jpg", width: 350, height: 600, alt: "Restaurant food" },
+        { src: "/restaurant-8.jpg", width: 350, height: 550, alt: "Restaurant interior" },
+        { src: "/restaurant-8.jpg", width: 350, height: 550, alt: "Restaurant interior" },
+      ]
+    },
+    {
+      col: 2,
+      images: [
+        { src: "/restaurant-1.jpg", width: 350, alt: "Dining area" },
+        { src: "/restaurant-10.jpg", width: 350, alt: "Chef preparing food" },
+        { src: "/restaurant-3.jpg", width: 350, alt: "Mediterranean dishes" },
+      ]
+    },
+    {
+      col: 3,
+      images: [
+        { src: "/restaurant-4.jpg", width: 350, alt: "Fresh ingredients" },
+        { src: "/restaurant-17.jpg", width: 350, alt: "Outdoor seating" },
+        { src: "/restaurant-9.jpg", width: 350, alt: "Dessert selection" },
+      ]
+    },
+    {
+      col: 4,
+      images: [
+        { src: "/food1.avif", width: 350, height: 600, alt: "Mediterranean cuisine" },
+        { src: "/restaurant-16.jpg", width: 350, height: 550, alt: "Family dining" },
+        { src: "/restaurant-16.jpg", width: 350, height: 550, alt: "Family dining" },
+      ]
+    }
+  ]
+};
+
+// Our Team Component Data
+export const teamMembers = [
+  {
+    id: 1,
+    name: "Carlos Rodriguez",
+    position: "Head Chef",
+    bio: "With 15 years of Mediterranean cuisine experience, Carlos brings authentic flavors to every dish.",
+    image: "/testimonial1.jpg",
+    specialties: ["Grilled meats", "Traditional recipes"]
+  },
+  {
+    id: 2,
+    name: "Sophia Papadakis",
+    position: "Pastry Chef",
+    bio: "Specializing in Greek desserts, Sophia creates sweet endings to your meals.",
+    image: "/testimonial2.avif",
+    specialties: ["Baklava", "Galaktoboureko"]
+  },
+  {
+    id: 3,
+    name: "Mehmet Yilmaz",
+    position: "Sous Chef",
+    bio: "Expert in Turkish and Lebanese cuisine, Mehmet adds depth to our menu.",
+    image: "/testimonial3.jpg",
+    specialties: ["Mezze", "Kebabs"]
+  },
+  {
+    id: 4,
+    name: "Elena Costa",
+    position: "Sommelier",
+    bio: "Elena pairs our dishes with perfect Mediterranean wines.",
+    image: "/testimonial3.jpg",
+    specialties: ["Wine pairing", "Cocktails"]
+  }
+];
