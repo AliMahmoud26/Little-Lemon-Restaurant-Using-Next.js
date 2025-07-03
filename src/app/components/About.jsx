@@ -13,7 +13,7 @@ const About = () => {
           <h1 className="max-md:text-4xl lg:text-5xl font-bold text-[#F4CE14]">Little Lemon</h1>
           <span className="text-2xl md:text-3xl block mt-2">Chicago</span>
           <p className="mt-8 md:mt-12 leading-relaxed text-lg">
-            Welcome to our family-owned Mediterranean restaurant, a place where tradition and innovation come together to create an unforgettable dining experience. Our story began with a simple yet profound dream: to share the rich heritage of Mediterranean cuisine with our community. Inspired by recipes passed down through generations, we've taken the flavors of our roots and infused them with a modern twist to appeal to today's adventurous food lovers. From the very beginning, our focus has been on crafting dishes that reflect the warmth and authenticity of our culture...
+            Welcome to our family-owned Mediterranean restaurant, a place where tradition and innovation come together to create an unforgettable dining experience. Our story began with a simple yet profound dream: to share the rich heritage of Mediterranean cuisine with our community. Inspired by recipes passed down through generations, we've taken the flavors of our roots and infused them with a modern twist to appeal to today's adventurous food lovers. From the very beginning, our focus has been on crafting dishes that reflect the warmth and authenticity of our culture.
           </p>
         </div>
 

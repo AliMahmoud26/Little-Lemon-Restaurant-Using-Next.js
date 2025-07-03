@@ -124,33 +124,33 @@ export const historyData = {
     {
       col: 1,
       images: [
-        { src: "/restauranfood.jpg", width: 350, height: 600, alt: "Restaurant food" },
-        { src: "/restaurant-8.jpg", width: 350, height: 550, alt: "Restaurant interior" },
-        { src: "/restaurant-8.jpg", width: 350, height: 550, alt: "Restaurant interior" },
+        { src: "/restauranfood.jpg", width: 250, height: 550, alt: "Restaurant food" },
+        { src: "/restaurant-8.jpg", width: 250, height: 500, alt: "Restaurant interior" },
+        { src: "/restaurant-8.jpg", width: 250, height: 500, alt: "Restaurant interior" },
       ]
     },
     {
       col: 2,
       images: [
-        { src: "/restaurant-1.jpg", width: 350, alt: "Dining area" },
-        { src: "/restaurant-10.jpg", width: 350, alt: "Chef preparing food" },
-        { src: "/restaurant-3.jpg", width: 350, alt: "Mediterranean dishes" },
+        { src: "/restaurant-1.jpg", width: 250, alt: "Dining area" },
+        { src: "/restaurant-10.jpg", width: 250, alt: "Chef preparing food" },
+        { src: "/restaurant-3.jpg", width: 250, alt: "Mediterranean dishes" },
       ]
     },
     {
       col: 3,
       images: [
-        { src: "/restaurant-4.jpg", width: 350, alt: "Fresh ingredients" },
-        { src: "/restaurant-17.jpg", width: 350, alt: "Outdoor seating" },
-        { src: "/restaurant-9.jpg", width: 350, alt: "Dessert selection" },
+        { src: "/restaurant-4.jpg", width: 250, alt: "Fresh ingredients" },
+        { src: "/restaurant-17.jpg", width: 250, alt: "Outdoor seating" },
+        { src: "/restaurant-9.jpg", width: 250, alt: "Dessert selection" },
       ]
     },
     {
       col: 4,
       images: [
-        { src: "/food1.avif", width: 350, height: 600, alt: "Mediterranean cuisine" },
-        { src: "/restaurant-16.jpg", width: 350, height: 550, alt: "Family dining" },
-        { src: "/restaurant-16.jpg", width: 350, height: 550, alt: "Family dining" },
+        { src: "/food1.avif", width: 250, height: 550, alt: "Mediterranean cuisine" },
+        { src: "/restaurant-16.jpg", width: 250, height: 500, alt: "Family dining" },
+        { src: "/restaurant-16.jpg", width: 250, height: 500, alt: "Family dining" },
       ]
     }
   ]
@@ -189,5 +189,39 @@ export const teamMembers = [
     bio: "Elena pairs our dishes with perfect Mediterranean wines.",
     image: "/testimonial3.jpg",
     specialties: ["Wine pairing", "Cocktails"]
+  }
+];
+
+// Restaurant FAQ Data
+export const restaurantFAQs = [
+  {
+    id: 1,
+    question: "What type of cuisine do you serve?",
+    answer: "We specialize in authentic Mediterranean cuisine with a modern twist, offering traditional recipes passed down through generations."
+  },
+  {
+    id: 2,
+    question: "How can I make a reservation?",
+    answer: "Reservations can be made through our website, by calling (555) 123-4567, or via our mobile app. We recommend booking in advance for weekends."
+  },
+  {
+    id: 3,
+    question: "Do you accommodate dietary restrictions?",
+    answer: "Yes! We offer vegetarian, vegan, and gluten-free options. Please inform us of any allergies when ordering."
+  },
+  {
+    id: 4,
+    question: "What are your opening hours?",
+    answer: "Open Tuesday-Sunday: 11AM-10PM. Closed Mondays. Kitchen closes at 9:30PM."
+  },
+  {
+    id: 5,
+    question: "Do you offer takeout or delivery?",
+    answer: "Yes, we offer both takeout and delivery through our website and app. Delivery available within 5 miles."
+  },
+  {
+    id: 6,
+    question: "Is the restaurant family-friendly?",
+    answer: "Absolutely! We welcome families and offer a children's menu, high chairs, and a relaxed atmosphere."
   }
 ];

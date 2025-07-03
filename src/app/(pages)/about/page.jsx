@@ -3,6 +3,8 @@ import Navbar from '@/app/components/Navbar'
 import React from 'react'
 import OurHistory from './OurHistory'
 import OurTeam from './OurTeam'
+import Footer from '@/app/components/Footer'
+import FAQ from './FAQ'
 
 const AboutLittleLemon = () => {
   return (
@@ -14,6 +16,12 @@ const AboutLittleLemon = () => {
       <OurHistory />
       <div className="our-team my-6 mb-18">
         <OurTeam />
+      </div>
+      <div className="contact-faq">
+        <FAQ />
+      </div>
+      <div className="footer">
+        <Footer />
       </div>
     </main>
   )
